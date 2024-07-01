@@ -1,0 +1,22 @@
+name: clustering-pipeline
+channels:
+  - conda-forge
+  - pytorch
+  - pytorch-nightly
+dependencies:
+  - python=3.9
+  - notebook
+  - nb_conda_kernels
+  - faiss-cpu=1.8.0
+  - numpy
+  - pandas
+  - pytorch
+  - scikit-learn
+  - scipy
+  - sentence-transformers
+  - transformers
+  - pip
+  - pip:
+    - absl-py
+    - protobuf
+    - git+https://github.com/nmonath/scc.git@main
